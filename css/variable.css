@@ -1,0 +1,24 @@
+:root{
+    --black: #000000;
+    --darkgrey: #767676;
+    --darkgreyV2: rgba(118, 118, 118, 0.4);
+    --grey: #999999;
+    --yellow: #f9bf26;
+    --white: #ffffff;
+    
+    --darktone_1: #262627;
+    --darktone_2: #2a2a2e;
+    --darktone_3: #2d2d32;
+    --darktone_4: #35353a;
+    --darktone_5: #424242;
+
+    --green: #4dc247;
+    --font_New: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;color: inherit;
+}
+html{
+    font-size: 10px;
+    font-family: var(--font_New);
+}
