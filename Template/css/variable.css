@@ -14,11 +14,16 @@
 
     --green: #4dc247;
     --font_New: 'Open Sans', sans-serif;
+
+    --origin-point: 7rem;
+    --origin-pointM: 6rem;
 }
-a{
-    text-decoration: none;color: inherit;
-}
+a{text-decoration: none;color: inherit;}
 html{
-    font-size: 10px;
-    font-family: var(--font_New);
+    font-size: 10px;    font-family: var(--font_New);
+    background-color: rgb(35, 0, 0);
 }
+
+html::-webkit-scrollbar{display: none;}
+
+body{display: flex;  flex-flow: column;}

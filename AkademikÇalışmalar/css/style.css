@@ -1,0 +1,6 @@
+main section article:nth-of-type(1) .directive:nth-last-of-type(3){
+    color: orange;   transition: all 0.4s ease-out;
+}
+main section article:nth-of-type(1) .directive:nth-last-of-type(3):hover{
+    color: white;
+}
