@@ -1,13 +1,30 @@
-@media only screen and (max-width: 1400px) {
-    html {
+@media only screen and (max-width: 1100px){
+    .nameAndLogo{
+        flex-basis: 100vw;
+    }
+    main section{        
+        margin-top: 14rem;
+        margin-left: 7rem;
+    }
+}
+@media only screen and (max-width: 920px) {
+    html{
         font-size: 8px;
     }
-
 }
 
-@media only screen and (max-width: 980px) {
-    html {
-        font-size: 6px;
-    }
+@media only screen and (max-height: 900px) {
+    main aside{ padding-top: 0rem;}
+}
 
+@media only screen and (max-width: 590px) {
+    #phoneFrame{
+        flex-basis: 570px;
+    }    
+    main section{        
+        margin-top: 21rem;
+    }
+}
+
+@media only screen and (max-width: 625px) {
 }
